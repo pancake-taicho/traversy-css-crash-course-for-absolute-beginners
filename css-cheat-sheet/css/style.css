@@ -54,6 +54,10 @@ a:active {
   color: white; 
 }
 
+.clr {
+  clear: both;
+}
+
 .box-1 {
   background-color: #333;
   color: #FFF;
@@ -143,4 +147,20 @@ a:active {
   border: 1px solid #CCC;
   padding: 10px;
   box-sizing:border-box;
+}
+
+#main-block {
+  float: left;
+  width: 70%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+#sidebar {
+  float: right;
+  width: 30%;
+  background-color:  #333;
+  color: #FFF;
+  padding: 15px;
+  box-sizing: border-box;
 }
